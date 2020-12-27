@@ -1,5 +1,9 @@
-[![Build Status](https://travis-ci.com/rstudio/bookdown-demo.svg?branch=master)](https://travis-ci.com/rstudio/bookdown-demo)
+# MicrobiomeVis
 
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). Please see the page "[Get Started](https://bookdown.org/yihui/bookdown/get-started.html)" at https://bookdown.org/yihui/bookdown/ for how to compile this example into HTML. You may generate a copy of the book in `bookdown::pdf_book` format by calling `bookdown::render_book('index.Rmd', 'bookdown::pdf_book')`. More detailed instructions are available here https://bookdown.org/yihui/bookdown/build-the-book.html.
+<!-- badges: start -->
+[![Build Status](https://travis-ci.com/yanhui09/MicrobiomeVis.svg?branch=master)](https://travis-ci.com/yanhui09/)
+<!-- badges: end -->
 
-You can find the preview of this example at https://bookdown.org/yihui/bookdown-demo/.
+This is a repository for the microbiome analysis tutorial, covering the data minining and visualazition techniques of the matrix of microbial features. This tutorial will not step into the bioinformatic processing of sequencing data. It is created to give inspirations for microbiome analysis in R. The code is primarily written in R, with minimal use of Python use given no trustworthy substituetes for some [QIIME 2](https://qiime2.org/) commands. 
+
+This tutrial is bulit with [bookdown](https://bookdown.org/). You can view the electronic version of this tutorial at https://.
